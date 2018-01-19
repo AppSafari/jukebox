@@ -1,0 +1,41 @@
+.section-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.overlay-bg {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+}
+.navbar-brand .logo-text {
+    line-height: 0.6;
+}
+.mainmenu-area .navbar-brand .logo-text {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.particles-js {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single_screen_slide {
+    background: rgba(0, 0, 0, 0) url(./images/screen/phone.png) no-repeat scroll center center;
+    padding: 66px 70px 70px 71px;
+}
+.text-white a,
+.text-white {
+    color: #ffffff;
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .single_screen_slide {
+        padding: 48px 30px 52px 30px;
+    }
+}
