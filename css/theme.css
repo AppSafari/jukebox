@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+html,
+body {
+    height: 100%
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #606060;
+}
 .section-bg {
     height: 100%;
     left: 0;
@@ -7,8 +19,7 @@
 }
 
 .overlay-bg {
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(../images/screen_bg.png) no-repeat scroll center center;
 }
 .navbar-brand .logo-text {
     line-height: 0.6;
@@ -25,13 +36,50 @@
 }
 .single_screen_slide {
     background: rgba(0, 0, 0, 0) url(../images/screen/phone.png) no-repeat scroll center center;
-    padding: 66px 70px 70px 71px;
+    padding: 38px 70px 66px 71px;
 }
 .text-white a,
 .text-white {
     color: #ffffff;
 }
-
+.text-golden-yellow {
+    color: #FFDF00;
+}
+.home_screen_nav span {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 5px;
+}
+.btn-icon {
+    padding: 12px 0 12px 50px;
+    position: relative;
+}
+.btn-icon:hover {
+    color: #FFDF00;
+}
+.btn-icon span {
+    background-color: #FFDF00;
+    border: 1px solid #FFDF00;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 0 rgba(255, 255, 255, 0.2);
+    color: #000000;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    left: 0;
+    line-height: 2.3;
+    margin-right: 10px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.btn-icon:hover span {
+    background-color: #FFDF00;
+    color: #000000;
+}
 
 /* Responsive */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
